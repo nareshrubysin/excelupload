@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @download_excel.name %>
+</p>
+
+<p>
+  <strong>Fristname:</strong>
+  <%= @download_excel.fristname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @download_excel.lastname %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @download_excel.age %>
+</p>
+
+<%= link_to 'Edit', edit_download_excel_path(@download_excel) %> |
+<%= link_to 'Back', download_excels_path %>
